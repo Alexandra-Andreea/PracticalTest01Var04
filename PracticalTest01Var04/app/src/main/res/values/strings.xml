@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PracticalTest01Var04</string>
+
+    <string name="navigateButton">NAVIGATE TO SECONDARY ACTIVITY</string>
+    <string name="name">Perfect Student</string>
+    <string name="grup">341C2</string>
+    <string name="displayButton">DISPLAY INFORMATION</string>
+
+</resources>
