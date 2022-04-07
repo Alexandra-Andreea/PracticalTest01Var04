@@ -6,4 +6,10 @@
     <string name="grup">341C2</string>
     <string name="displayButton">DISPLAY INFORMATION</string>
 
+
+    <string name="nameSecondary">Name</string>
+    <string name="grupSecondary">Group</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+
 </resources>

@@ -21,6 +21,7 @@
         android:columnCount="2">
 
         <CheckBox
+            android:id="@+id/name_check_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -33,22 +34,25 @@
             android:layout_gravity="center"
             android:hint="@string/name"
             android:layout_row="0"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:saveEnabled="false"/>
 
         <CheckBox
+            android:id="@+id/group_check_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_row="1"
             android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/left_edit_text"
+            android:id="@+id/group_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:hint="@string/grup"
             android:layout_row="1"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:saveEnabled="false"/>
 
     </GridLayout>
 
@@ -63,7 +67,6 @@
         android:id="@+id/text_view_after_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
         android:layout_gravity="left"
         />
 
